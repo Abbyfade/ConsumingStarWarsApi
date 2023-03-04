@@ -1,0 +1,21 @@
+img{
+    height: 50px;
+    width: 50px;
+}
+#list{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.name{
+    cursor: pointer;
+}
+.height, .gender {
+    display: none;
+}
